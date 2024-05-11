@@ -4,7 +4,7 @@ Introduction: The project aims to develop an algorithm to identify mines within 
 
 Key Milestones:
 
-1.  Initial Algorithm Development: Developed a Python script using Pillow library to extract tiles and compare against reference mine images.
+1.  Initial Algorithm Development: Developed a Python script using the Pillow library to extract tiles and compare them against reference mine images.
 
 2.  Threshold Adjustment: Adjusted correlation threshold to 0.8 for improved accuracy in mine identification.
 
@@ -12,4 +12,4 @@ Key Milestones:
 
 4.  CSV Data Organization: Modified CSV output to group mine coordinates under respective image names for better organization and analysis.
 
-Next Steps: Further enhancements may include optimizing threshold values for different scenarios and exploring advanced image processing techniques for improved mine detection accuracy. Additionally, refining the algorithm's efficiency for processing larger datasets can enhance its scalability and usability.
+Next Steps: Identify an algorithm to process the data about the mines and predict the upcoming location of the mines on providing a few dummy outcomes at first.
