@@ -1,15 +1,24 @@
-Progress Summary: Mine Identification Algorithm
+### Project Report
 
-Introduction: The project aims to develop an algorithm to identify mines within a 5x5 matrix of tiles extracted from larger images. The algorithm uses image processing techniques to compare tiles against reference images of mines, storing mine positions in a CSV file.
+#### **Description**
+This project aims to identify mines in a 5x5 matrix of images using pixel comparison. The system analyzes tiles in each image, compares them with reference mine images, and records the coordinates of detected mines. The output is saved in a CSV file with mine coordinates grouped by the image name.
 
-Key Milestones:
+#### **Key Features**
+- Detects mines in 5x5 image matrices using pixel analysis.
+- Compares tiles with multiple reference images for better accuracy.
+- Outputs identified mine coordinates to a CSV file, grouped by image.
+- Provides visual plots of the mine positions.
 
-1.  Initial Algorithm Development: Developed a Python script using the Pillow library to extract tiles and compare them against reference mine images.
+#### **Technologies Used**
+- **Python:** Core logic.
+- **Pillow (PIL):** Image manipulation.
+- **NumPy:** Numerical operations.
+- **Pandas:** CSV management.
+- **Matplotlib:** Plotting results.
 
-2.  Threshold Adjustment: Adjusted correlation threshold to 0.8 for improved accuracy in mine identification.
-
-3.  Multiple Image Comparison: Updated the script to accept multiple reference images for enhanced detection accuracy.
-
-4.  CSV Data Organization: Modified CSV output to group mine coordinates under respective image names for better organization and analysis.
+#### **Usage**
+- Load multiple images and reference mine images.
+- Detect and record mine positions based on pixel correlation.
+- Results are saved in a CSV file and visualized in a plot.
 
 Next Steps: Identify an algorithm to process the data about the mines and predict the upcoming location of the mines on providing a few dummy outcomes at first.
